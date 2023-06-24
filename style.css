@@ -1,0 +1,33 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    border: 20px dotted green;
+    width: 385px;
+}
+
+p {
+    border: seagreen solid 3px;
+    width: 254px;
+}
+
+p:hover {
+    opacity: 0.7;
+    color: olive;
+    border: ridge crimson;
+    transform: scale(1);
+    transition: all 2.5s ease-out;
+}
+
+a img:hover {
+    transform: scale(1.1) rotate(15deg);
+    transition: all 0.69s ease-out;
+}
+
+h1:hover {
+    transition: all 1s ease-out;
+    transform: scale(1.05) rotate(5.5deg);
+    color: blue;
+    opacity: 0.6;
+}
